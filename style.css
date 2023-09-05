@@ -1,0 +1,41 @@
+*{
+  font-family: helvetica;
+}
+body{
+  background-color: rgb(115, 132, 226);
+}
+.container{
+  background-color: rgb(255, 252, 242);
+  width: 30%;
+  margin-inline: auto;
+  margin-block: 100px;
+  padding: 20px;
+  border: none;
+  border-radius: 2rem;
+}
+.container h1{
+  margin-top: -5px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 3rem;
+}
+.container textarea{
+  width: 95%;
+  height: 4rem;
+  border-radius: .5rem;
+  resize: none;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-weight: 600;
+}
+.container button{
+  margin-top: 10px;
+  width: 25%;
+  padding-block: .4rem;
+  border-radius: .3rem;
+  border: none;
+  background: rgb(115, 132, 226);
+  color: white;
+  font-weight: 900;
+  font-size: 1rem;
+}
